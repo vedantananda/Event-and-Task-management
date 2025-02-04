@@ -1,0 +1,70 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Conference on Web Development",
+      "date": "2025-03-15",
+      "location": "New York, NY",
+      "organizer": "TechCorp",
+      "description": "A conference discussing modern web technologies."
+    },
+    {
+      "id": 2,
+      "name": "AI and Machine Learning Summit",
+      "date": "2025-04-25",
+      "location": "San Francisco, CA",
+      "organizer": "InnovateAI",
+      "description": "A summit on the latest developments in AI and machine learning."
+    },
+    {
+      "id": 3,
+      "name": "Tech Talk: Future of Blockchain",
+      "date": "2025-05-10",
+      "location": "Los Angeles, CA",
+      "organizer": "BlockTech",
+      "description": "A tech talk discussing the future of blockchain technology."
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Prepare presentation slides",
+      "description": "Prepare the slides for the 'Modern Web Frameworks' talk.",
+      "status": "pending",
+      "priority": "high",
+      "event_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Book flight tickets",
+      "description": "Book flight tickets for speakers of the conference.",
+      "status": "completed",
+      "priority": "medium",
+      "event_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Set up registration desk",
+      "description": "Prepare the registration desk for the conference attendees.",
+      "status": "in-progress",
+      "priority": "high",
+      "event_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Write session abstracts",
+      "description": "Write the abstracts for the upcoming sessions of the AI Summit.",
+      "status": "pending",
+      "priority": "medium",
+      "event_id": 2
+    },
+    {
+      "id": 5,
+      "name": "Design event flyers",
+      "description": "Design the promotional flyers for the Blockchain Tech Talk.",
+      "status": "completed",
+      "priority": "low",
+      "event_id": 3
+    }
+  ]
+}
